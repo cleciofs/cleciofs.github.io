@@ -105,7 +105,7 @@
                         <span>Campanha de Transferência Externa 2026</span>
                     </div>
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
-                        Pague apenas pelo que cursar e elimine de vez o <span class="text-red-400 underline decoration-wavy">"Boletão"</span>!
+                        Pague apenas pelo que cursar e elimine de vez o <span class="text-red-400">"Boletão"</span>!
                     </h1>
                     <p class="text-lg text-gray-300 max-w-2xl mx-auto lg:mx-0">
                         Transfira seu curso para a <strong class="text-white font-semibold">Estácio Natal</strong> e garanta <strong class="text-estacio-accent">70% de BOLSA DURANTE TODO O CURSO PRESENCIAL</strong>. Economize de verdade pagando por créditos acadêmicos e tenha aulas práticas com estruturas nota máxima no MEC.
@@ -689,7 +689,7 @@
         </div>
     </section>
 
-    <!-- Student Voice / Testimonials -->
+    <!-- Student Voice / Testimonials
     <section class="py-20 bg-slate-50 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-16">
@@ -699,7 +699,7 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                <!-- Testimonial 1 -->
+                <!-- Testimonial 1
                 <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex flex-col justify-between">
                     <p class="text-slate-600 italic text-md">
                         "Eu trabalhava e precisava cursar menos disciplinas em um semestre porque minha carga horária no emprego aumentou. Na concorrência queriam me cobrar a mensalidade inteira de qualquer jeito! Mudei para a Estácio Natal, montei minha grade por créditos e pago exatamente pelo que curso, com 70% de desconto contínuo e sem 'boletões' na rematrícula!"
@@ -715,7 +715,7 @@
                     </div>
                 </div>
 
-                <!-- Testimonial 2 -->
+                <!-- Testimonial 2
                 <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex flex-col justify-between">
                     <p class="text-slate-600 italic text-md">
                         "O estacionamento na outra faculdade era insustentável, ou andava de noite longe correndo risco, ou pagava R$ 14,00 por dia no Midway. Na Estácio Natal eu tenho van gratuita direta da porta do Midway e estacionamento interno gratuito de verdade. As aulas de enfermagem são presenciais e práticas, nota máxima do MEC."
@@ -732,7 +732,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+	
 
     <!-- FAQ Section -->
     <section class="py-20 bg-white">
@@ -1041,11 +1042,11 @@
 
             // Dynamic tracking message
             const baseMessage = `Olá! Vim através da campanha de transferência externa para a Estácio Natal. Desejo validar minha bolsa garantida de 70% de desconto para curso presencial.`;
-            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Contato: ${phone}\n• Curso Presencial: ${course}\n\n*Interesse:* Quero fazer a simulação por créditos baseada no documento Tabela preços Presenciais.xlsx.`;
+            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Contato: ${phone}\n• Curso Presencial: ${course}\n\n*Interesse:* Quero saber mais.`;
             const fullMessage = encodeURIComponent(baseMessage + personalInfo);
             
             // Open WhatsApp with sales placeholder number (Natal regional DDD 84)
-            window.open(`https://api.whatsapp.com/send?phone=558431981637&text=${fullMessage}`, '_blank');
+            window.open(`https://api.whatsapp.com/send?phone=558491081587&text=${fullMessage}`, '_blank');
         }
 
         function handleFormSubmitFooter(event) {
@@ -1055,10 +1056,10 @@
             const course = document.getElementById('course_footer').value;
 
             const baseMessage = `Olá! Tenho muito interesse em transferir meu curso para a Estácio Natal e receber 70% de desconto fixo durante toda a graduação presencial.`;
-            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Celular: ${phone}\n• Curso Presencial: ${course}\n\n*Nota:* Solicito simulação por créditos acadêmicos.`;
+            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Celular: ${phone}\n• Curso Presencial: ${course}\n\n*Nota:* Querosaber mais.`;
             const fullMessage = encodeURIComponent(baseMessage + personalInfo);
             
-            window.open(`https://api.whatsapp.com/send?phone=558431981637&text=${fullMessage}`, '_blank');
+            window.open(`https://api.whatsapp.com/send?phone=558491081587&text=${fullMessage}`, '_blank');
         }
 
         // Accordion FAQ handler
