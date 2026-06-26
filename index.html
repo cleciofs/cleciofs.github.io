@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estácio Natal | Transferência Externa com 70% de Bolsa</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        estacio: {
+                            navy: '#002B49',
+                            blue: '#004B87',
+                            sky: '#00A3E0',
+                            accent: '#00D2C4',
+                            lightBg: '#F4F7FA',
+                            darkText: '#1E293B',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #002B49 0%, #004B87 50%, #001f35 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(90deg, #00D2C4 0%, #00A3E0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glow-button {
+            box-shadow: 0 4px 20px rgba(0, 210, 196, 0.4);
+            transition: all 0.3s ease;
+        }
+        .glow-button:hover {
+            box-shadow: 0 6px 24px rgba(0, 210, 196, 0.6);
+            transform: translateY(-2px);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #004B87;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-800 font-sans leading-normal overflow-x-hidden">
+
+    <!-- Header/Navigation -->
+    <header class="sticky top-0 z-50 bg-estacio-navy text-white shadow-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="flex flex-col"> <span class="text-2xl font-extrabold tracking-tight text-white flex items-center">
+                    ESTÁCIO <span class="text-estacio-accent ml-1">NATAL</span>
+                </span>
+                    <span class="text-[10px] tracking-widest text-gray-300 uppercase">Campus Alexandrino</span>
+                </div>
+            </div>
+            <nav class="hidden lg:flex space-x-6 text-sm font-medium">
+                <a href="#diferencial-creditos" class="hover:text-estacio-accent transition-colors">Cobrança por Créditos</a>
+                <a href="#comparativo" class="hover:text-estacio-accent transition-colors">Estácio vs Concorrente</a>
+                <a href="#simulador" class="hover:text-estacio-accent transition-colors">Simulador de Economia</a>
+                <a href="#atributos" class="hover:text-estacio-accent transition-colors">Diferenciais MEC</a>
+            </nav>
+            <div>
+                <a href="#formulario-inscricao" class="bg-estacio-accent hover:bg-opacity-90 text-estacio-navy font-bold px-5 py-2.5 rounded-full transition-all text-sm flex items-center space-x-2 shadow-lg">
+                    <i class="fab fa-whatsapp text-lg"></i>
+                    <span>Transferir Agora</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-16 lg:py-24 relative overflow-hidden">
+        <!-- Background decorative elements -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-estacio-sky/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-estacio-accent/10 rounded-full blur-3xl -ml-20 -mb-20"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Text Column -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider text-estacio-accent">
+                        <i class="fas fa-arrow-right-to-bracket"></i>
+                        <span>Campanha de Transferência Externa 2026</span>
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
+                        Pague apenas pelo que cursar e elimine de vez o <span class="text-red-400 underline decoration-wavy">"Boletão"</span>!
+                    </h1>
+                    <p class="text-lg text-gray-300 max-w-2xl mx-auto lg:mx-0">
+                        Transfira seu curso para a <strong class="text-white font-semibold">Estácio Natal</strong> e garanta <strong class="text-estacio-accent">70% de BOLSA DURANTE TODO O CURSO PRESENCIAL</strong>. Economize de verdade pagando por créditos acadêmicos e tenha aulas práticas com estruturas nota máxima no MEC.
+                    </p>
+                    
+                    <!-- Quick Value Badges -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-4 max-w-xl mx-auto lg:mx-0">
+                        <div class="bg-white/5 border border-white/10 p-3 rounded-xl text-center">
+                            <i class="fas fa-percentage text-estacio-accent text-2xl mb-1"></i>
+                            <p class="text-xs text-gray-400">Desconto Linear</p>
+                            <p class="text-sm font-bold">70% OFF Fixo</p>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 p-3 rounded-xl text-center">
+                            <i class="fas fa-coins text-estacio-accent text-2xl mb-1"></i>
+                            <p class="text-xs text-gray-400">Cobrança Flexível</p>
+                            <p class="text-sm font-bold">Pague por Crédito</p>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 p-3 rounded-xl col-span-2 sm:col-span-1 text-center">
+                            <i class="fas fa-bus text-estacio-accent text-2xl mb-1"></i>
+                            <p class="text-xs text-gray-400">Transporte Ativo</p>
+                            <p class="text-sm font-bold">Van Grátis Midway</p>
+                        </div>
+                    </div>
+
+                    <div class="pt-6 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#formulario-inscricao" class="glow-button bg-estacio-accent text-estacio-navy font-extrabold text-lg px-8 py-4 rounded-xl flex items-center justify-center space-x-3 w-full sm:w-auto">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                            <span>QUERO MEU DESCONTO DE 70%</span>
+                        </a>
+                        <a href="#simulador" class="border border-white/30 hover:bg-white/10 text-white font-semibold px-6 py-4 rounded-xl transition-all text-center w-full sm:w-auto">
+                            Simular Economia por Créditos
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Form Box -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white text-estacio-darkText p-8 rounded-3xl shadow-2xl border border-gray-100 relative">
+                        <div class="absolute -top-4 -right-4 bg-red-500 text-white font-bold text-xs uppercase px-4 py-2 rounded-lg shadow-md transform rotate-3 animate-pulse">
+                            Oferta Exclusiva Presencial!
+                        </div>
+                        
+                        <h3 class="text-2xl font-bold tracking-tight text-estacio-navy">
+                            Assegure sua Vaga com 70%
+                        </h3>
+                        <p class="text-slate-500 text-sm mt-1">
+                            Preencha rápido para falar com um consultor via WhatsApp, iniciar a análise curricular e garantir a bolsa de 70% em toda a graduação presencial.
+                        </p>
+
+                        <form id="leadForm" class="mt-6 space-y-4" onsubmit="handleFormSubmit(event)">
+                            <div>
+                                <label for="name" class="block text-xs font-semibold uppercase text-slate-500 mb-1">Seu Nome Completo</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <input type="text" id="name" required class="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-estacio-blue focus:border-transparent transition-all outline-none" placeholder="Ex: João da Silva">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="phone" class="block text-xs font-semibold uppercase text-slate-500 mb-1">WhatsApp (com DDD)</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </span>
+                                    <input type="tel" id="phone" required class="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-estacio-blue focus:border-transparent transition-all outline-none" placeholder="(84) 99999-9999">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="course" class="block text-xs font-semibold uppercase text-slate-500 mb-1">Curso de Interesse (Presencial)</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </span>
+                                    <select id="course" required class="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-estacio-blue focus:border-transparent bg-white transition-all outline-none appearance-none">
+                                        <option value="" disabled selected>Selecione seu curso presencial...</option>
+                                        <option value="Direito">Direito (MEC Nota 5)</option>
+                                        <option value="Enfermagem">Enfermagem (MEC Nota 5)</option>
+                                        <option value="Administração">Administração</option>
+                                        <option value="Psicologia">Psicologia</option>
+                                        <option value="Fisioterapia">Fisioterapia</option>
+                                        <option value="Nutrição">Nutrição</option>
+                                        <option value="Educação Física">Educação Física</option>
+                                    </select>
+                                    <span class="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 pointer-events-none">
+                                        <i class="fas fa-chevron-down text-xs"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-2 pt-2">
+                                <input type="checkbox" id="terms" required class="mt-1 h-4 w-4 text-estacio-blue border-slate-300 rounded focus:ring-estacio-blue">
+                                <label for="terms" class="text-xs text-slate-500">
+                                    Aceito receber contato dos consultores da Estácio Natal via WhatsApp para validação da minha bolsa de 70%.
+                                </label>
+                            </div>
+
+                            <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-md py-4 px-6 rounded-xl flex items-center justify-center space-x-2 transition-all shadow-md mt-4">
+                                <i class="fab fa-whatsapp text-lg"></i>
+                                <span>GARANTIR BOLSA VIA WHATSAPP</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Concept: Pay Per Credit -->
+    <section id="diferencial-creditos" class="py-16 bg-slate-100 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-estacio-blue bg-blue-100 px-3 py-1 rounded-full">Diferencial Inovador</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-estacio-navy mt-4 tracking-tight">
+                        Justiça Financeira: Pague apenas pelos créditos que cursar
+                    </h2>
+                    <p class="text-slate-600 mt-4 leading-relaxed">
+                  Na maioria das instituiçõe    você é obrigado a pagar o valor integral da mensalidad,&nbsp; &nbsp;mesmo se só puder cursar poucas matérias no semestre por conta de trabalho, tempo ou adaptação.</p>
+                    <p class="text-slate-600 mt-2 leading-relaxed">
+                        Na <strong class="text-estacio-blue">Estácio Natal</strong>, a cobrança é estruturada por <strong class="text-slate-900 font-semibold">Créditos Acadêmicos</strong>. Se você precisa de um semestre mais leve e opta por fazer apenas 2 ou 3 disciplinas, sua mensalidade cai proporcionalmente. Sem cobranças indevidas ou injustas.
+                    </p>
+                    
+                    <div class="mt-6 space-y-4">
+                        <div class="flex items-center space-x-3">
+                            <span class="bg-emerald-100 text-emerald-600 p-2 rounded-full flex items-center justify-center h-8 w-8">
+                                <i class="fas fa-check text-sm"></i>
+                            </span>
+                            <span class="text-slate-700 font-medium">Flexibilidade total para organizar sua rotina</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="bg-emerald-100 text-emerald-600 p-2 rounded-full flex items-center justify-center h-8 w-8">
+                                <i class="fas fa-check text-sm"></i>
+                            </span>
+                            <span class="text-slate-700 font-medium">Bolsa de 70% aplicada diretamente sobre o valor do crédito</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="bg-emerald-100 text-emerald-600 p-2 rounded-full flex items-center justify-center h-8 w-8">
+                                <i class="fas fa-check text-sm"></i>
+                            </span>
+                            <span class="text-slate-700 font-medium">Ideal para quem trabalha e precisa conciliar horários</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-3xl shadow-xl border border-slate-200">
+                    <h3 class="text-xl font-bold text-estacio-navy mb-4 flex items-center gap-2">
+                        <i class="fas fa-book-open text-estacio-sky"></i>
+                        Como funcionam os Créditos Acadêmicos?
+                    </h3>
+                    <p class="text-sm text-slate-500 mb-6">Cada disciplina possui um número de créditos (geralmente 4 créditos por matéria). Veja as configurações comuns por semestre:</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-xl border border-slate-100">
+                            <div>
+                                <span class="font-bold text-slate-800 block">08 Créditos por Semestre</span>
+                                <span class="text-xs text-slate-500">Aulas em 2 dias da semana (Semestre leve)</span>
+                            </div>
+                            <span class="bg-estacio-navy text-white text-xs px-3 py-1.5 rounded-full font-bold">2 Disciplinas</span>
+                        </div>
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-xl border border-slate-100">
+                            <div>
+                                <span class="font-bold text-slate-800 block">12 Créditos por Semestre</span>
+                                <span class="text-xs text-slate-500">Aulas em 3 dias da semana</span>
+                            </div>
+                            <span class="bg-estacio-navy text-white text-xs px-3 py-1.5 rounded-full font-bold">3 Disciplinas</span>
+                        </div>
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-xl border border-slate-100">
+                            <div>
+                                <span class="font-bold text-slate-800 block">16 Créditos por Semestre</span>
+                                <span class="text-xs text-slate-500">Aulas em 4 dias da semana</span>
+                            </div>
+                            <span class="bg-estacio-navy text-white text-xs px-3 py-1.5 rounded-full font-bold">4 Disciplinas</span>
+                        </div>
+                        <div class="flex justify-between items-center p-3 bg-blue-50 rounded-xl border border-blue-200">
+                            <div>
+                                <span class="font-bold text-estacio-blue block">20 Créditos por Semestre</span>
+                                <span class="text-xs text-slate-500">Aulas em 5 dias da semana (Semestre regular cheio)</span>
+                            </div>
+                            <span class="bg-estacio-blue text-white text-xs px-3 py-1.5 rounded-full font-bold">5 Disciplinas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct Comparison / Competitor Pain Points -->
+    <section id="comparativo" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-estacio-blue bg-blue-50 px-3 py-1 rounded-full">Chega de Pegadinhas</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-estacio-navy mt-3 tracking-tight">
+                  Por que os alunos da concorrência  estão migrando para a Estácio Natal?
+              </h2>
+                <p class="text-slate-500 mt-4 text-lg">
+                    Comparamos as principais queixas dos alunos da concorrência com as soluções reais garantidas pela Estácio Natal.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+                <!-- Competitor Card (UnP Dores) -->
+                <div class="bg-red-50/60 border border-red-100 rounded-3xl p-8 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex items-center space-x-3 text-red-600 mb-6">
+                            <span class="p-3 bg-red-100 rounded-2xl flex items-center justify-center">
+                                <i class="fas fa-face-frown text-2xl"></i>
+                            </span>
+                            <h3 class="text-xl font-extrabold tracking-tight">Realidade na Concorrência</h3>
+                        </div>
+
+                        <ul class="space-y-6">
+                            <li class="flex items-start space-x-3">
+                                <span class="text-red-500 mt-1"><i class="fas fa-times-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-slate-800 font-bold block">O pesadelo do "Boletão" de renovação</strong>
+                                    <span class="text-sm text-slate-600 font-medium">Nos meses de rematrícula (Janeiro e Julho), o seu desconto some! Você é forçado a pagar o boleto com valor integral, desequilibrando o seu orçamento familiar duas vezes ao ano.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-red-500 mt-1"><i class="fas fa-times-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-slate-800 font-bold block">Pagamento integral mesmo cursando menos matérias</strong>
+                                    <span class="text-sm text-slate-600">Se você precisar trancar disciplinas e cursar menos matérias em determinado semestre, ainda sim terá que arcar com a mensalidade cheia de 100%.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-red-500 mt-1"><i class="fas fa-times-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-slate-800 font-bold block">Cursos "Presenciais" que viraram EAD</strong>
+                                    <span class="text-sm text-slate-600">Você paga mensalidade de curso presencial mas passa mais tempo estudando online na tela de casa, sem apoio prático real.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-red-500 mt-1"><i class="fas fa-times-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-slate-800 font-bold block">Estacionamento saturado ou pago</strong>
+                                    <span class="text-sm text-slate-600">A falta de vagas no campus força você a estacionar longe em locais inseguros, ou a gastar até R$ 14,00 por dia em estacionamentos&nbsp;como o do Midway Mall.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-red-500 mt-1"><i class="fas fa-times-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-slate-800 font-bold block">Dificuldade de falar com a coordenação</strong>
+                                    <span class="text-sm text-slate-600">Falar com um coordenador de curso ou gestor é quase impossível. Você vira apenas mais um número de protocolo sem resposta humana.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Estácio Natal Solutions -->
+                <div class="bg-gradient-to-br from-estacio-navy to-estacio-blue text-white rounded-3xl p-8 flex flex-col justify-between shadow-xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-48 h-48 bg-estacio-accent/10 rounded-full blur-2xl -mr-10 -mt-10"></div>
+                    <div class="relative z-10">
+                        <div class="flex items-center space-x-3 text-estacio-accent mb-6">
+                            <span class="p-3 bg-white/10 rounded-2xl flex items-center justify-center">
+                                <i class="fas fa-smile text-2xl"></i>
+                            </span>
+                            <h3 class="text-xl font-extrabold tracking-tight">Sua nova experiência na Estácio Natal</h3>
+                        </div>
+
+                        <ul class="space-y-6">
+                            <li class="flex items-start space-x-3">
+                                <span class="text-estacio-accent mt-1"><i class="fas fa-check-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-white font-bold block">Bolsa linear de 70% o ano todo (Sem Boletão)</strong>
+                                    <span class="text-sm text-gray-300">O seu desconto de 70% é mantido em todos os meses do ano, inclusive nas rematrículas de Janeiro e Julho. Transparência total!</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-estacio-accent mt-1"><i class="fas fa-check-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-white font-bold block">Cobrança justa baseada em Créditos Acadêmicos</strong>
+                                    <span class="text-sm text-gray-300">Mensalidade proporcional à quantidade de créditos matriculados. Cursou menos matérias? Paga menos!</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-estacio-accent mt-1"><i class="fas fa-check-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-white font-bold block">Aulas Presenciais de Verdade e Notas Máximas MEC</strong>
+                                    <span class="text-sm text-gray-300">Prática ativa em laboratórios de ponta. Cursos prestigiados como Direito e Enfermagem avaliados com Nota Máxima (5) pelo MEC.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-estacio-accent mt-1"><i class="fas fa-check-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-white font-bold block">Estacionamento Grátis + Van de Integração Gratuita</strong>
+                                    <span class="text-sm text-gray-300">Estacionamento amplo e gratuito com segurança privada. Além disso, disponibilizamos transporte gratuito de van de ida e volta do Midway Mall ao campus.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-estacio-accent mt-1"><i class="fas fa-check-circle text-lg"></i></span>
+                                <div>
+                                    <strong class="text-white font-bold block">Acesso direto e simplificado à Gestão</strong>
+                                    <span class="text-sm text-gray-300">Estrutura humanizada. Coordenadores de cursos altamente acessíveis e disponíveis para direcionamento profissional.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-white/10 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-gray-400 block uppercase font-bold">Condição Exclusiva</span>
+                            <span class="text-xl font-black text-estacio-accent">Matrícula por Crédito com 70% OFF</span>
+                        </div>
+                        <a href="#formulario-inscricao" class="bg-estacio-accent hover:bg-opacity-90 text-estacio-navy font-bold px-5 py-2.5 rounded-xl text-sm transition-all flex items-center space-x-2">
+                            <span>Quero Transferir</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive ROI Calculator / Savings Calculator -->
+    <section id="simulador" class="py-20 bg-estacio-lightBg border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold uppercase tracking-wider text-estacio-blue bg-blue-100 px-3 py-1 rounded-full">Simulador de Créditos Oficial</span>
+                <h2 class="text-3xl font-extrabold text-estacio-navy mt-3 tracking-tight">Simulador de Economia de Transferência</h2>
+                <p class="text-slate-500 mt-3">Comprove na ponta do lápis a economia de pagar por créditos reais matriculados contra a cobrança integral da concorrência!</p>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden grid grid-cols-1 lg:grid-cols-12 max-w-6xl mx-auto">
+                <!-- Inputs Side -->
+                <div class="lg:col-span-6 p-8 sm:p-12 space-y-6 bg-slate-50 border-r border-slate-100">
+                    <h4 class="text-lg font-bold text-estacio-navy border-b border-slate-200 pb-3 flex items-center gap-2">
+                        <i class="fas fa-sliders-h text-estacio-sky"></i>
+                        Escolha seu cenário acadêmico:
+                    </h4>
+
+                    <!-- Select 1: Curso -->
+                    <div>
+                        <label for="simCourse" class="block text-sm font-bold text-slate-700 mb-2">1. Curso de Interesse na Estácio:</label>
+                        <select id="simCourse" class="w-full p-3.5 border border-slate-200 rounded-xl bg-white focus:ring-2 focus:ring-estacio-blue focus:border-transparent transition-all outline-none" onchange="onCourseChange()">
+                            <option value="Direito">Direito (MEC Nota 5)</option>
+                            <option value="Enfermagem">Enfermagem (MEC Nota 5)</option>
+                            <option value="Administração">Administração</option>
+                            <option value="Psicologia">Psicologia</option>
+                            <option value="Fisioterapia">Fisioterapia</option>
+                            <option value="Nutrição">Nutrição</option>
+                            <option value="Educação Física">Educação Física</option>
+                        </select>
+                    </div>
+
+                    <!-- Select 2: Turno -->
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">2. Turno das Aulas:</label>
+                        <div class="grid grid-cols-2 gap-3">
+                            <label class="flex items-center justify-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all" id="labelMatutino">
+                                <input type="radio" name="simShift" value="matutino" checked class="hidden" onchange="updateShiftUI('matutino')">
+                                <span class="text-sm font-bold text-slate-700 flex items-center gap-2">
+                                    <i class="fas fa-sun text-amber-500"></i> Matutino
+                                </span>
+                            </label>
+                            <label class="flex items-center justify-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all" id="labelNoturno">
+                                <input type="radio" name="simShift" value="noturno" class="hidden" onchange="updateShiftUI('noturno')">
+                                <span class="text-sm font-bold text-slate-700 flex items-center gap-2">
+                                    <i class="fas fa-moon text-indigo-500"></i> Noturno
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Select 3: Quantidade de Créditos -->
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">3. Créditos que deseja cursar por semestre:</label>
+                        <div class="grid grid-cols-2 gap-3">
+                            <label class="flex flex-col items-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all text-center" id="labelCredit8">
+                                <input type="radio" name="simCredits" value="8" class="hidden" onchange="updateCreditUI('8')">
+                                <span class="text-base font-extrabold text-slate-800">08 Créditos</span>
+                                <span class="text-[10px] text-slate-500 font-medium">2 dias na semana</span>
+                            </label>
+                            <label class="flex flex-col items-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all text-center" id="labelCredit12">
+                                <input type="radio" name="simCredits" value="12" class="hidden" onchange="updateCreditUI('12')">
+                                <span class="text-base font-extrabold text-slate-800">12 Créditos</span>
+                                <span class="text-[10px] text-slate-500 font-medium">3 dias na semana</span>
+                            </label>
+                            <label class="flex flex-col items-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all text-center" id="labelCredit16">
+                                <input type="radio" name="simCredits" value="16" class="hidden" onchange="updateCreditUI('16')">
+                                <span class="text-base font-extrabold text-slate-800">16 Créditos</span>
+                                <span class="text-[10px] text-slate-500 font-medium">4 dias na semana</span>
+                            </label>
+                            <label class="flex flex-col items-center p-3 border-2 border-estacio-blue rounded-xl bg-blue-50/50 cursor-pointer hover:border-estacio-blue transition-all text-center" id="labelCredit20">
+                                <input type="radio" name="simCredits" value="20" checked class="hidden" onchange="updateCreditUI('20')">
+                                <span class="text-base font-extrabold text-slate-800">20 Créditos</span>
+                                <span class="text-[10px] text-slate-500 font-medium">5 dias na semana</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Input 4: Mensalidade Integral do Concorrente (NOVO) -->
+                    <div>
+                        <label for="compFullTuitionInput" class="block text-sm font-bold text-slate-700 mb-2">4. Sua mensalidade INTEGRAL atual na concorrência (sem desconto):</label>
+                        <div class="relative">
+                            <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400 font-bold text-sm">
+                                R$
+                            </span>
+                            <input type="number" id="compFullTuitionInput" value="1400" min="100" max="6000" step="50" class="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-estacio-blue focus:border-transparent transition-all outline-none font-bold text-slate-800" oninput="calculateSavings()">
+                        </div>
+                        <p class="text-[10px] text-slate-400 mt-1">Este valor é crucial para projetar a facada do "Boletão" de renovação de matrícula (2x ao ano sem nenhum desconto na concorrência).</p>
+                    </div>
+
+                    <!-- Input 5: Desconto simulado na concorrência -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <label for="compDiscountInput" class="text-sm font-bold text-slate-700">5. Seu desconto atual na concorrência (%):</label>
+                            <span id="compDiscountValText" class="text-sm font-extrabold text-red-600">50%</span>
+                        </div>
+                        <input type="range" id="compDiscountInput" min="0" max="90" step="5" value="50" class="w-full accent-red-500 cursor-pointer h-2 bg-slate-200 rounded-lg" oninput="calculateSavings()">
+                        <div class="flex justify-between text-xs text-slate-400 mt-1">
+                            <span>Sem desconto (0%)</span>
+                            <span>90% de bolsa</span>
+                        </div>
+                    </div>
+
+                    <!-- Input 6: Estacionamento pago no Midway -->
+                    <div>
+                        <label for="parkingSelect" class="block text-sm font-bold text-slate-700 mb-2">6. Frequência de ida ao campus (Estacionamento):</label>
+                        <select id="parkingSelect" class="w-full p-3.5 border border-slate-200 rounded-xl bg-white focus:ring-2 focus:ring-estacio-blue focus:border-transparent transition-all outline-none" onchange="calculateSavings()">
+                            <option value="0">Não utilizo carro/moto (R$ 0,00 de estacionamento)</option>
+                            <option value="2">2 dias/semana (Gasta R$ 28/semana no Midway)</option>
+                            <option value="3">3 dias/semana (Gasta R$ 42/semana no Midway)</option>
+                            <option value="4">4 dias/semana (Gasta R$ 56/semana no Midway)</option>
+                            <option value="5" selected>5 dias/semana (Gasta R$ 70/semana no Midway)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Outputs Side (Savings Results) -->
+                <div class="lg:col-span-6 p-8 sm:p-12 gradient-bg text-white flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-lg font-bold text-estacio-accent border-b border-white/10 pb-3 flex items-center gap-2">
+                            <i class="fas fa-calculator"></i>
+                            Análise de Economia Projetada:
+                        </h4>
+
+                        <!-- Real Price Comparison Card -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+                            <div class="bg-white/10 border border-white/20 p-4 rounded-2xl relative overflow-hidden">
+                                <div class="absolute top-0 right-0 bg-estacio-accent text-estacio-navy text-[9px] font-black uppercase px-2 py-0.5 rounded-bl-lg">
+                                    Estácio Natal
+                                </div>
+                                <span class="text-[11px] uppercase text-gray-300 block leading-tight font-semibold">Sua Mensalidade Proporcional</span>
+                                <span id="estacioValueOutput" class="text-3xl font-black text-estacio-accent block mt-1">R$ 0,00</span>
+                                <span class="text-[10px] text-gray-200 font-medium block mt-1" id="estacioDetailText">Calculado para 20 créditos</span>
+                                <span class="text-[9px] text-gray-400 block font-semibold mt-1">(Já com 70% de bolsa linear)</span>
+                            </div>
+
+                            <div class="bg-white/5 border border-white/10 p-4 rounded-2xl relative overflow-hidden">
+                                <div class="absolute top-0 right-0 bg-red-500 text-white text-[9px] font-black uppercase px-2 py-0.5 rounded-bl-lg">
+                                    Concorrente
+                                </div>
+                                <span class="text-[11px] uppercase text-gray-300 block leading-tight font-semibold">Sua Mensalidade Cobrada</span>
+                                <span id="compValueOutput" class="text-3xl font-black text-red-300 block mt-1">R$ 0,00</span>
+                                <span class="text-[10px] text-red-200 font-medium block mt-1">Sempre valor integral </span>
+                                <span class="text-[9px] text-gray-400 block font-semibold mt-1">(Mesmo que curse menos matérias)</span>
+                            </div>
+                        </div>
+
+                        <!-- Savings Breakdown -->
+                        <div class="space-y-4 mt-8">
+                            <div class="flex justify-between items-center text-sm border-b border-white/10 pb-2">
+                                <span class="text-gray-300 flex items-center gap-1">
+                                    <i class="fas fa-coins text-estacio-accent"></i> Economia na rematrícula regular:
+                                </span>
+                                <span id="rematriculaSavingsOutput" class="font-extrabold text-estacio-accent">R$ 0,00</span>
+                            </div>
+                            <div class="flex justify-between items-center text-sm border-b border-white/10 pb-2">
+                                <span class="text-gray-300 flex items-center gap-1">
+                                    <i class="fas fa-parking text-estacio-accent"></i> Economia com Estacionamento/Van:
+                                </span>
+                                <span id="parkingSavingsOutput" class="font-extrabold text-estacio-accent">R$ 0,00</span>
+                            </div>
+                            <div class="flex justify-between items-center text-sm border-b border-white/10 pb-2">
+                                <span class="text-gray-300 flex items-center gap-1">
+                                    <i class="fas fa-university text-estacio-accent"></i> Economia extra por Carga de Créditos:
+                                </span>
+                                <span id="creditSavingsOutput" class="font-extrabold text-estacio-accent">R$ 0,00</span>
+                            </div>
+                        </div>
+
+                        <!-- Total Grand Savings highlight -->
+                        <div class="mt-8 bg-white/10 rounded-2xl p-5 border border-white/20 text-center relative overflow-hidden">
+                            <span class="text-xs uppercase text-gray-300 block tracking-wider font-bold">ECONOMIA ANUAL TOTAL ESTIMADA</span>
+                            <span id="totalAnnualSavingsOutput" class="text-4xl font-black text-gradient block mt-1">R$ 0,00</span>
+                            <span class="text-xs text-gray-200 mt-2 block">Diga adeus ao prejuízo. Venha para a instituição que respeita seu orçamento!</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <button onclick="scrollToLeadForm()" class="w-full glow-button bg-estacio-accent text-estacio-navy font-black text-center py-4 rounded-xl block transition-all">
+                            APROVEITAR ESTA ECONOMIA AGORA
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estácio Natal Core Attributes (Cartilha de Atributos) -->
+    <section id="atributos" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-estacio-blue bg-blue-50 px-3 py-1 rounded-full">Evidências de Atributos</span>
+                <h2 class="text-3xl font-extrabold text-estacio-navy mt-3 tracking-tight">O que faz a Estácio Natal ser Líder de Verdade</h2>
+                <p class="text-slate-500 mt-3">Infraestrutura certificada, segurança ativa e programas que potencializam a sua formação profissional.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Atributo 1 -->
+                <div class="border border-slate-100 bg-slate-50 rounded-3xl p-6 transition-all hover:shadow-lg">
+                    <div class="text-estacio-blue text-3xl mb-4">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-estacio-navy mb-2">Avaliação Nota Máxima do MEC</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Cursos de grande prestígio como <strong class="text-estacio-blue">Direito</strong> e <strong class="text-estacio-blue">Enfermagem</strong> possuem nota 5 máxima no MEC. Toda a infraestrutura do campus é avaliada de maneira impecável para oferecer o melhor aprendizado.
+                    </p>
+                </div>
+
+                <!-- Atributo 2 -->
+                <div class="border border-slate-100 bg-slate-50 rounded-3xl p-6 transition-all hover:shadow-lg">
+                    <div class="text-estacio-blue text-3xl mb-4">
+                        <i class="fas fa-bus-alt"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-estacio-navy mb-2">Transporte Gratuito de Van</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Conexão rápida e sem custos! A Estácio Natal disponibiliza transporte de van gratuito e contínuo fazendo a ponte entre o Shopping Midway Mall e o campus, com foco no seu conforto e integridade física.
+                    </p>
+                </div>
+
+                <!-- Atributo 3 -->
+                <div class="border border-slate-100 bg-slate-50 rounded-3xl p-6 transition-all hover:shadow-lg">
+                    <div class="text-estacio-blue text-3xl mb-4">
+                        <i class="fas fa-parking"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-estacio-navy mb-2">Estacionamento Amplo e Gratuito</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Sem sustos no orçamento ou perigos nas ruas. Nosso campus dispõe de estacionamento próprio e gratuito com monitoramento de segurança ativo para todos os alunos de graduação presencial.
+                    </p>
+                </div>
+
+                <!-- Atributo 4 -->
+                <div class="border border-slate-100 bg-slate-50 rounded-3xl p-6 transition-all hover:shadow-lg">
+                    <div class="text-estacio-blue text-3xl mb-4">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-estacio-navy mb-2">Canal Direto com a Coordenação</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Diferente do distanciamento da concorrência, na Estácio o acesso aos coordenadores é simplificado. Os professores são próximos e ativos para orientar a sua jornada acadêmica e profissional.
+                    </p>
+                </div>
+
+                <!-- Atributo 5 -->
+                <div class="border border-slate-100 bg-slate-50 rounded-3xl p-6 transition-all hover:shadow-lg">
+                    <div class="text-estacio-blue text-3xl mb-4">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-estacio-navy mb-2">Inclusão Ativa</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Estrutura preparada para acolher todas as singularidades. Isso se percebe nos pequenos cuidados, como a <strong class="text-estacio-blue">Sala Girassol,</strong>  <strong class="text-estacio-blue">Espaço Amamentação</strong> e acompanhamento ativo de aprendizagem.
+                    </p>
+                </div>
+
+                <!-- Atributo 6 -->
+                <div class="border border-slate-100 bg-slate-50 rounded-3xl p-6 transition-all hover:shadow-lg">
+                    <div class="text-estacio-blue text-3xl mb-4">
+                        <i class="fas fa-people-carry"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-estacio-navy mb-2">Atendimento Gratuito à Comunidade</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                      Desenvolva habilidades do mundo real através dos nossos núcleos práticos estruturados: NIS, NPJ (Núcleo de Prática Jurídica), SEP (Serviço Escola de Psicologia , NAF (Apoio Fiscal) e LPG, consolidando conhecimento de excelência.
+                  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Voice / Testimonials -->
+    <section class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-estacio-blue bg-blue-100 px-3 py-1 rounded-full">Histórias de Sucesso</span>
+                <h2 class="text-3xl font-extrabold text-estacio-navy mt-3 tracking-tight">Depoimentos de ex-alunos da concorrência</h2>
+                <p class="text-slate-500 mt-3">Descubra por que quem migrou de faculdade não se arrepende e hoje estuda com muito mais segurança e economia.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex flex-col justify-between">
+                    <p class="text-slate-600 italic text-md">
+                        "Eu trabalhava e precisava cursar menos disciplinas em um semestre porque minha carga horária no emprego aumentou. Na concorrência queriam me cobrar a mensalidade inteira de qualquer jeito! Mudei para a Estácio Natal, montei minha grade por créditos e pago exatamente pelo que curso, com 70% de desconto contínuo e sem 'boletões' na rematrícula!"
+                    </p>
+                    <div class="flex items-center space-x-3 mt-6">
+                        <div class="h-10 w-10 bg-slate-200 rounded-full flex items-center justify-center text-estacio-navy font-bold">
+                            MA
+                        </div>
+                        <div>
+                            <span class="font-bold text-slate-800 block text-sm">Mariana Albuquerque</span>
+                            <span class="text-xs text-slate-400">Aluna do 8º Período de Direito (Ex-UnP)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex flex-col justify-between">
+                    <p class="text-slate-600 italic text-md">
+                        "O estacionamento na outra faculdade era insustentável, ou andava de noite longe correndo risco, ou pagava R$ 14,00 por dia no Midway. Na Estácio Natal eu tenho van gratuita direta da porta do Midway e estacionamento interno gratuito de verdade. As aulas de enfermagem são presenciais e práticas, nota máxima do MEC."
+                    </p>
+                    <div class="flex items-center space-x-3 mt-6">
+                        <div class="h-10 w-10 bg-slate-200 rounded-full flex items-center justify-center text-estacio-navy font-bold">
+                            TL
+                        </div>
+                        <div>
+                            <span class="font-bold text-slate-800 block text-sm">Thiago Lemos</span>
+                            <span class="text-xs text-slate-400">Aluno do 6º Período de Enfermagem (Ex-UnP)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold uppercase tracking-wider text-estacio-blue bg-blue-50 px-3 py-1 rounded-full">Dúvidas Frequentes</span>
+                <h2 class="text-3xl font-extrabold text-estacio-navy mt-3 tracking-tight">Ficou com alguma dúvida?</h2>
+                <p class="text-slate-500 mt-2">Dúvidas frequentes de estudantes em processo de transferência externa presencial.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-5 font-bold text-slate-800 bg-slate-50 flex justify-between items-center transition-all hover:bg-slate-100" onclick="toggleFaq(this)">
+                        <span>Como funciona o desconto de 70% da bolsa de transferência?</span>
+                        <i class="fas fa-plus text-xs text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="p-5 text-slate-600 text-sm hidden border-t border-slate-200 bg-white">
+                        O desconto de 70% é garantido para todo o período restante do seu curso presencial na Estácio Natal. Ele se aplica a todas as mensalidades regulares e também aos meses de rematrícula (diferente da concorrência, onde você precisa pagar o valor integral nesses meses).
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-5 font-bold text-slate-800 bg-slate-50 flex justify-between items-center transition-all hover:bg-slate-100" onclick="toggleFaq(this)">
+                        <span>Como é calculada a mensalidade por créditos?</span>
+                        <i class="fas fa-plus text-xs text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="p-5 text-slate-600 text-sm hidden border-t border-slate-200 bg-white">
+                        O valor total do curso é dividido de forma justa por créditos. Cada disciplina que você cursa equivale a um número específico de créditos (normalmente 4). Se você escolher cursar menos matérias (ex: 8 créditos/2 matérias ou 12 créditos/3 matérias), sua mensalidade diminuirá proporcionalmente ao número de créditos, ao contrário da concorrência, que cobra o valor integral de 100% de forma mandatória.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-5 font-bold text-slate-800 bg-slate-50 flex justify-between items-center transition-all hover:bg-slate-100" onclick="toggleFaq(this)">
+                        <span>Eu perco minhas disciplinas já cursadas?</span>
+                        <i class="fas fa-plus text-xs text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="p-5 text-slate-600 text-sm hidden border-t border-slate-200 bg-white">
+                        Não! Nossa coordenação acadêmica realiza uma análise curricular minuciosa e gratuita para aproveitar o máximo de disciplinas possíveis que você já concluiu, garantindo que você não perca seu avanço curricular.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-5 font-bold text-slate-800 bg-slate-50 flex justify-between items-center transition-all hover:bg-slate-100" onclick="toggleFaq(this)">
+                        <span>Existe alguma taxa para dar início ao processo?</span>
+                        <i class="fas fa-plus text-xs text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="p-5 text-slate-600 text-sm hidden border-t border-slate-200 bg-white">
+                        Não. A solicitação de transferência externa e a análise do histórico são totalmente gratuitas e feitas de maneira ágil diretamente por nossa equipe de consultores via WhatsApp.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Form Section (Anchor Target) -->
+    <section id="formulario-inscricao" class="py-20 gradient-bg text-white relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+            <span class="text-xs font-bold uppercase tracking-wider text-estacio-accent bg-white/10 px-4 py-2 rounded-full border border-white/10">Sua Oportunidade Única de Mudar</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight mt-6">Faça sua transferência e mude seu rumo financeiro.</h2>
+            <p class="text-gray-300 mt-4 max-w-2xl mx-auto text-md">
+                Preencha as informações para iniciar seu atendimento via WhatsApp de forma prioritária. Um consultor de transferência irá entrar em contato com você hoje mesmo.
+            </p>
+
+            <div class="mt-12 bg-white text-estacio-darkText p-8 rounded-3xl shadow-2xl max-w-xl mx-auto text-left border border-white/10">
+                <form id="leadFormFooter" class="space-y-4" onsubmit="handleFormSubmitFooter(event)">
+                    <div>
+                        <label for="name_footer" class="block text-xs font-semibold uppercase text-slate-500 mb-1">Seu Nome Completo</label>
+                        <input type="text" id="name_footer" required class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-estacio-blue focus:border-transparent transition-all outline-none" placeholder="Ex: Maria Medeiros">
+                    </div>
+                    <div>
+                        <label for="phone_footer" class="block text-xs font-semibold uppercase text-slate-500 mb-1">WhatsApp (com DDD)</label>
+                        <input type="tel" id="phone_footer" required class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-estacio-blue focus:border-transparent transition-all outline-none" placeholder="(84) 99999-9999">
+                    </div>
+                    <div>
+                        <label for="course_footer" class="block text-xs font-semibold uppercase text-slate-500 mb-1">Seu Curso Presencial</label>
+                        <select id="course_footer" required class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-estacio-blue focus:border-transparent bg-white transition-all outline-none appearance-none">
+                            <option value="" disabled selected>Selecione seu curso...</option>
+                            <option value="Direito">Direito (Nota 5 no MEC)</option>
+                            <option value="Enfermagem">Enfermagem (Nota 5 no MEC)</option>
+                            <option value="Administração">Administração</option>
+                            <option value="Psicologia">Psicologia</option>
+                            <option value="Fisioterapia">Fisioterapia</option>
+                            <option value="Nutrição">Nutrição</option>
+                            <option value="Educação Física">Educação Física</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-md py-4 rounded-xl flex items-center justify-center space-x-2 transition-all shadow-md">
+                        <i class="fab fa-whatsapp text-lg"></i>
+                        <span>FALAR COM ASSESSOR NO WHATSAPP</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Information -->
+    <footer class="bg-estacio-navy text-gray-400 py-12 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div>
+                    <span class="text-white text-xl font-bold block mb-3">Estácio Natal</span>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                      Campus Alexandrino <br>
+                    Endereço: Av. Alm. Alexandrino de Alencar, 708 - Alecrim, Natal - RN, 59030-350. </p>
+
+                </div>
+                <div>
+                    <span class="text-white text-md font-semibold block mb-3">Nossos Diferenciais</span>
+                    <ul class="text-xs space-y-2">
+                        <li>• Flexibilidade de Mensalidade por Créditos</li>
+                        <li>• Estacionamento Monitorado Gratuito</li>
+                        <li>• Van de Integração Grátis Midway Mall</li>
+                        <li>• Núcleos de Prática de Excelência (NPJ, NIS)</li>
+                        <li>• Apoio à Neurodiversidade</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="text-white text-md font-semibold block mb-3">Atendimento e Transferência</span>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Assessoria especializada via WhatsApp de Segunda a Sexta das 08:00 às 21:00. <br>
+                        Telefone Unificado: 0800 880 6767
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-white/10 mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500">
+                <p>© 2026 Estácio Natal. Todos os direitos reservados. Bolsa de 70% exclusiva para transferência externa de cursos presenciais.</p>
+                <div class="flex space-x-4 mt-4 sm:mt-0">
+                    <a href="#" class="hover:text-white">Política de Privacidade</a>
+                    <a href="#" class="hover:text-white">Regulamento de Bolsa 70%</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Data derived directly from the referenced "Tabela preços Presenciais.xlsx"
+        // representing the credit value per course and shift at Estácio Natal
+        const creditPricingDatabase = {
+            "Direito": {
+                matutino: 60.00,  // Price per credit (Estácio)
+                noturno: 65.00,
+                competitorBaseDefault: 1400.00 // Suggested typical full tuition at competitor
+            },
+            "Enfermagem": {
+                matutino: 68.00,
+                noturno: 73.00,
+                competitorBaseDefault: 1500.00
+            },
+            "Administração": {
+                matutino: 34.00,
+                noturno: 38.00,
+                competitorBaseDefault: 850.00
+            },
+            "Psicologia": {
+                matutino: 68.00,
+                noturno: 72.00,
+                competitorBaseDefault: 1450.00
+            },
+            "Fisioterapia": {
+                matutino: 85.00,
+                noturno: 90.00,
+                competitorBaseDefault: 1800.00
+            },
+            "Nutrição": {
+                matutino: 60.00,
+                noturno: 65.00,
+                competitorBaseDefault: 1300.00
+            },
+            "Educação Física": {
+                matutino: 45.00,
+                noturno: 50.00,
+                competitorBaseDefault: 950.00
+            }
+        };
+
+        // UI state variables
+        let selectedShift = 'matutino';
+        let selectedCredits = 20;
+
+        function onCourseChange() {
+            const courseSelect = document.getElementById('simCourse');
+            const selectedCourseName = courseSelect.value;
+            const courseData = creditPricingDatabase[selectedCourseName];
+            
+            if (courseData && document.getElementById('compFullTuitionInput')) {
+                document.getElementById('compFullTuitionInput').value = courseData.competitorBaseDefault;
+            }
+            calculateSavings();
+        }
+
+        // Calculator Logic
+        function calculateSavings() {
+            const courseSelect = document.getElementById('simCourse');
+            const selectedCourseName = courseSelect.value;
+            
+            // Get database matching values
+            const courseData = creditPricingDatabase[selectedCourseName];
+            const estacioCreditPrice = selectedShift === 'matutino' ? courseData.matutino : courseData.noturno;
+            
+            // 1. Estácio Calculation
+            // Tuition = Credit Price * Quantity of credits
+            const estacioFullPriceByCredits = estacioCreditPrice * selectedCredits;
+            // Apply the 70% Transfer discount
+            const estacioFinalDiscountedPrice = estacioFullPriceByCredits * 0.30; // 30% of the total price
+            
+            // 2. Competitor (UnP) Calculation
+            // Instead of using a fixed base, pull the manual competitor tuition input from the user
+            const competitorBaseInput = document.getElementById('compFullTuitionInput');
+            const competitorBasePrice = competitorBaseInput ? parseFloat(competitorBaseInput.value) || courseData.competitorBaseDefault : courseData.competitorBaseDefault;
+            
+            const competitorDiscount = parseFloat(document.getElementById('compDiscountInput').value);
+            const competitorMonthlyPrice = competitorBasePrice * (1 - (competitorDiscount / 100));
+
+            // 3. Monthly Parking calculation
+            // Midway parking = R$ 14 per day. Assumes 4 weeks per month of study.
+            const parkingDays = parseInt(document.getElementById('parkingSelect').value);
+            const monthlyParkingCostAtMidway = parkingDays * 14 * 4; 
+            
+            // 4. Annual calculations (assuming 10 months of regular study and 2 months of rematricula)
+            // Competitor: pays full flat price during rematricula (no discount) 2 times a year
+            const annualCompetitorTuitionCost = (competitorMonthlyPrice * 10) + (competitorBasePrice * 2);
+            const annualCompetitorParkingCost = monthlyParkingCostAtMidway * 10;
+            const totalAnnualCompetitorCost = annualCompetitorTuitionCost + annualCompetitorParkingCost;
+
+            // Estácio: No boletão (constant 70% off), 12 regular payments proportional to credits
+            const annualEstacioTuitionCost = estacioFinalDiscountedPrice * 12;
+            // Estácio Parking or Van is 100% free
+            const totalAnnualEstacioCost = annualEstacioTuitionCost;
+
+            // Individual breakdowns of savings
+            // Saving 1: Eliminating the "boletão" (rematricula flat rate zaps the discount twice a year)
+            const annualRematriculaSavings = Math.max(0, (competitorBasePrice * 2) - (estacioFinalDiscountedPrice * 2));
+            const annualParkingSavings = annualCompetitorParkingCost;
+            
+            // Total accurate annual savings
+            const totalAnnualSavings = totalAnnualCompetitorCost - totalAnnualEstacioCost;
+
+            // Update UI elements
+            document.getElementById('compDiscountValText').innerText = competitorDiscount + '%';
+            
+            document.getElementById('estacioValueOutput').innerText = 'R$ ' + estacioFinalDiscountedPrice.toFixed(2).replace('.', ',');
+            document.getElementById('estacioDetailText').innerText = `Calculado para ${selectedCredits} créditos (${selectedShift === 'matutino' ? 'Manhã' : 'Noite'})`;
+
+            document.getElementById('compValueOutput').innerText = 'R$ ' + competitorMonthlyPrice.toFixed(2).replace('.', ',');
+
+            document.getElementById('rematriculaSavingsOutput').innerText = 'R$ ' + annualRematriculaSavings.toFixed(2).replace('.', ',');
+            document.getElementById('parkingSavingsOutput').innerText = 'R$ ' + annualParkingSavings.toFixed(2).replace('.', ',');
+            
+            // Extra credit savings calculation
+            // If they are taking less than 20 credits, they save extra due to credit pricing compared to standard 20 credits load
+            const creditsValueSavings = Math.max(0, totalAnnualSavings - annualRematriculaSavings - annualParkingSavings);
+            document.getElementById('creditSavingsOutput').innerText = 'R$ ' + creditsValueSavings.toFixed(2).replace('.', ',');
+
+            // Total grand projection
+            document.getElementById('totalAnnualSavingsOutput').innerText = 'R$ ' + Math.max(0, totalAnnualSavings).toFixed(2).replace('.', ',');
+        }
+
+        // Handle Shift selection changes
+        function updateShiftUI(shift) {
+            selectedShift = shift;
+            
+            // Reset visual selections
+            document.getElementById('labelMatutino').className = "flex items-center justify-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all";
+            document.getElementById('labelNoturno').className = "flex items-center justify-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all";
+            
+            if (shift === 'matutino') {
+                document.getElementById('labelMatutino').className = "flex items-center justify-center p-3 border-2 border-estacio-blue rounded-xl bg-blue-50/50 cursor-pointer transition-all";
+            } else {
+                document.getElementById('labelNoturno').className = "flex items-center justify-center p-3 border-2 border-estacio-blue rounded-xl bg-blue-50/50 cursor-pointer transition-all";
+            }
+            
+            calculateSavings();
+        }
+
+        // Handle Credits selection changes
+        function updateCreditUI(credits) {
+            selectedCredits = parseInt(credits);
+            
+            // Reset all credit borders
+            document.getElementById('labelCredit8').className = "flex flex-col items-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all text-center";
+            document.getElementById('labelCredit12').className = "flex flex-col items-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all text-center";
+            document.getElementById('labelCredit16').className = "flex flex-col items-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all text-center";
+            document.getElementById('labelCredit20').className = "flex flex-col items-center p-3 border border-slate-200 rounded-xl bg-white cursor-pointer hover:border-estacio-blue transition-all text-center";
+            
+            // Set selected border
+            document.getElementById('labelCredit' + credits).className = "flex flex-col items-center p-3 border-2 border-estacio-blue rounded-xl bg-blue-50/50 cursor-pointer transition-all text-center";
+            
+            calculateSavings();
+        }
+
+        // Scroll helper
+        function scrollToLeadForm() {
+            document.getElementById('formulario-inscricao').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Form submission triggers (WhatsApp API redirect with detailed message context)
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const course = document.getElementById('course').value;
+
+            // Dynamic tracking message
+            const baseMessage = `Olá! Vim através da campanha de transferência externa para a Estácio Natal. Desejo validar minha bolsa garantida de 70% de desconto para curso presencial.`;
+            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Contato: ${phone}\n• Curso Presencial: ${course}\n\n*Interesse:* Quero fazer a simulação por créditos baseada no documento Tabela preços Presenciais.xlsx.`;
+            const fullMessage = encodeURIComponent(baseMessage + personalInfo);
+            
+            // Open WhatsApp with sales placeholder number (Natal regional DDD 84)
+            window.open(`https://api.whatsapp.com/send?phone=558431981637&text=${fullMessage}`, '_blank');
+        }
+
+        function handleFormSubmitFooter(event) {
+            event.preventDefault();
+            const name = document.getElementById('name_footer').value;
+            const phone = document.getElementById('phone_footer').value;
+            const course = document.getElementById('course_footer').value;
+
+            const baseMessage = `Olá! Tenho muito interesse em transferir meu curso para a Estácio Natal e receber 70% de desconto fixo durante toda a graduação presencial.`;
+            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Celular: ${phone}\n• Curso Presencial: ${course}\n\n*Nota:* Solicito simulação por créditos acadêmicos.`;
+            const fullMessage = encodeURIComponent(baseMessage + personalInfo);
+            
+            window.open(`https://api.whatsapp.com/send?phone=558431981637&text=${fullMessage}`, '_blank');
+        }
+
+        // Accordion FAQ handler
+        function toggleFaq(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-minus');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('fa-minus');
+                icon.classList.add('fa-plus');
+            }
+        }
+
+        // Initialize values on load
+        window.onload = function() {
+            updateShiftUI('matutino');
+            updateCreditUI('20');
+            onCourseChange(); // Initialize default competitor price based on selected course
+        };
+    </script>
+</body>
+</html>
