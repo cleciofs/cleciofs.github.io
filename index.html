@@ -1048,8 +1048,8 @@
             const course = document.getElementById('course').value;
 
             // Dynamic tracking message
-            const baseMessage = `Olá! Vim através da campanha de transferência externa para a Estácio Natal. Desejo validar minha bolsa garantida de 70% de desconto para curso presencial.`;
-            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Contato: ${phone}\n• Curso Presencial: ${course}\n\n*Interesse:* Quero saber mais.`;
+            const baseMessage = `Olá! Tenho interesse em transferir meu curso para a Estácio Natal e receber 70% de desconto fixo durante toda a graduação presencial.`;
+            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Contato: ${phone}\n• Curso Presencial: ${course}`;
             const fullMessage = encodeURIComponent(baseMessage + personalInfo);
             
             // Open WhatsApp with sales placeholder number (Natal regional DDD 84)
@@ -1062,8 +1062,8 @@
             const phone = document.getElementById('phone_footer').value;
             const course = document.getElementById('course_footer').value;
 
-            const baseMessage = `Olá! Tenho muito interesse em transferir meu curso para a Estácio Natal e receber 70% de desconto fixo durante toda a graduação presencial.`;
-            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Celular: ${phone}\n• Curso Presencial: ${course}\n\n*Nota:* Querosaber mais.`;
+            const baseMessage = `Olá! Tenho interesse em transferir meu curso para a Estácio Natal e receber 70% de desconto fixo durante toda a graduação presencial.`;
+            const personalInfo = `\n\n*Dados do Candidato:*\n• Nome: ${name}\n• Celular: ${phone}\n• Curso Presencial: ${course}`;
             const fullMessage = encodeURIComponent(baseMessage + personalInfo);
             
             window.open(`https://api.whatsapp.com/send?phone=558491081587&text=${fullMessage}`, '_blank');
